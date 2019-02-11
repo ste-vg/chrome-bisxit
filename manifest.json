@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Brexit & Biscuits",
+    "description": "Fed up with Brexit? Lets make Britain Biscuity again!",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
